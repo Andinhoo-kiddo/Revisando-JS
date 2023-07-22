@@ -25,7 +25,7 @@ console.log(!!idade) // true pq está preenchid
 
 
 //////////////////
-// Em JS tudo eh objeto, em ai to usando um metódo num objeto
+// Em JS tudo eh objeto, em ai to usando um metódo no objeto
 var nome2 = 'Anderson'
 var primeiroChar = nome2.charAt(0);
 console.log(primeiroChar)
