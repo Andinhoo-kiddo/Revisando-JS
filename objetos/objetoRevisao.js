@@ -37,3 +37,6 @@ const carro = {
 carro.proprietario.endereco.numero = 1000
 carro['proprietario']['endereco']['logradouro'] = 'Estádio São Januário' // qnd vc receber de algum parametro string, pode acessar assim
 console.log(carro)
+
+delete carro.condutores
+console.log(carro) // se ligue pra n acessar um atributo de algo q está undefined, q quebra o cod
