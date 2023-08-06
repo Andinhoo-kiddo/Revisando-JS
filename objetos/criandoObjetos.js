@@ -49,4 +49,4 @@ console.log(filha)
 
 // Uma função famosa que retorna um objeto (transformar um JSON em Object)
 const fromJSON = JSON.parse('{"info": "Sou um JSON e vou virar um negocinho"}')
-console.log(typeof fromJSON.info)
+console.log(fromJSON.info)
